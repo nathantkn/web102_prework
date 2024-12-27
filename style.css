@@ -19,6 +19,29 @@ body {
     margin-top: -10px;
 }
 
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: cadetblue;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
+.header2 {
+    text-align: center;
+    padding: 1%;
+}
+
+#description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .stats-container {
     display: flex;
     align-items: center;
@@ -27,6 +50,28 @@ body {
 .stats-container:hover {
     cursor: pointer;
     box-shadow: 0 0 30px lightblue;
+}
+
+#stats {
+    background-color: cadetblue;
+    padding: 1%;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
+#top-games {
+    background-color:cadetblue;
+    padding: 1%;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
 }
 
 .stats-card {

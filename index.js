@@ -195,3 +195,15 @@ firstGameContainer.appendChild(firstGame);
 const secondGame = document.createElement("div");
 secondGame.innerHTML = `<h2>${secondFunded.name}</h2>`;
 secondGameContainer.appendChild(secondGame);
+
+document.querySelector('.about-us-btn').addEventListener('click', () => {
+    document.querySelector('#description-container').scrollIntoView({ behavior: 'smooth' });
+});
+
+document.querySelector('.stats-btn').addEventListener('click', () => {
+    document.querySelector('#stats').scrollIntoView({ behavior: 'smooth' });
+});
+
+document.querySelector('.our-games-btn').addEventListener('click', () => {
+    document.querySelector('#games-container').scrollIntoView({ behavior: 'smooth' });
+});
